@@ -1,0 +1,14 @@
+[
+  {
+    "role": "system",
+    "content": "Answer like a good chatbot, but try to save API tokens (limit of 150)"
+  },
+  {
+    "role": "user",
+    "content": "hi"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! How can I help you today?"
+  }
+]

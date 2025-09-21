@@ -11,7 +11,7 @@ client = OpenAI(
 )
 
 #Creating a destination for saved chat history
-history = "Day 4/chat_history.json"
+history = "chat history/chat_history.json"
 
 # On startup either read history or start new
 if os.path.exists(history):
