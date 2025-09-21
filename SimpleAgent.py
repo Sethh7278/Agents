@@ -43,18 +43,6 @@ def response(prompt):
     conversation.append({"role": "assistant", "content" : reply})
     save_chat()
     return (reply)
-# #Creating the response
-# def response(prompt):
-#     response = client.chat.completions.create(
-#         model = "gpt-3.5-turbo",
-#         messages=[
-#             {"role" : "system", "content" : "Answer like a good chatbot, but try to save API tokens (limit of 150)"},
-#             {"role" : "user", "content" : prompt}
-#         ]
-#     )
-#     reply = response.choices[0].message.content
-#     print("AI: ", reply)
-
 
 
 #Creating a loop so the user can keep asking quetions
