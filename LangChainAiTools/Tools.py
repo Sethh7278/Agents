@@ -1,3 +1,5 @@
+# This is how to use Tavily to give an agent the ability to search the web
+
 from langchain_openai import ChatOpenAI   
 from langchain.chat_models import init_chat_model
 from langchain_tavily import TavilySearch
