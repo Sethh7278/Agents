@@ -24,7 +24,7 @@ model_with_tools = model.bind_tools(tools)
 
 
 location = input("Please enter the your location to find out the weather: ")
-input_message = {f"role": "user", "content": "Search for the weather in " + location}
+input_message = {"role": "user", "content": "Search for the weather in " + location}
 response = agent_executor.invoke({"messages": [input_message]})
 
 for message in response["messages"]:
