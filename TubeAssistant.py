@@ -25,7 +25,7 @@ def save_history():
         json.dump(conversation, f, ensure_ascii=False, indent=2)
 
 
-file_destination = "undergroundMap.jpg"
+file_destination = "images/undergroundMap.jpg"
 
 def load_file(file:str) -> str:
     if os.path.exists(file):
